@@ -6,7 +6,11 @@ namespace _10.MultiplicationTable
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int integer = int.Parse(Console.ReadLine());
+            for (int times = 1; times <= 10; times++)
+            {
+                Console.WriteLine($"{integer} X {times} = {integer * times}");
+            }
         }
     }
 }
