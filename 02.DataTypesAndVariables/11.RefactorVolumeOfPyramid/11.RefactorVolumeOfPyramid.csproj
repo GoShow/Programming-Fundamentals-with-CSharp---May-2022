@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>_00.Demos</RootNamespace>
+    <RootNamespace>_11.RefactorVolumeOfPyramid</RootNamespace>
   </PropertyGroup>
 
 </Project>
