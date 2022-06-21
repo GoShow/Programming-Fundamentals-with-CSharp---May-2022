@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.MovingTarget", "03.Movin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.GuineaPig", "01.GuineaPig\01.GuineaPig.csproj", "{885DE39D-B6F6-40D5-B5C0-67297983812F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.MemoryGame", "04.MemoryGame\04.MemoryGame.csproj", "{11F069D8-641A-4343-8E59-B6918E22F41C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.MemoryGame", "04.MemoryGame\04.MemoryGame.csproj", "{11F069D8-641A-4343-8E59-B6918E22F41C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.ArrayModifier", "05.ArrayModifier\05.ArrayModifier.csproj", "{E1141FF7-A009-43F3-839B-A46073D79278}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.ArrayModifier", "05.ArrayModifier\05.ArrayModifier.csproj", "{E1141FF7-A009-43F3-839B-A46073D79278}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.HeartDelivery", "06.HeartDelivery\06.HeartDelivery.csproj", "{6521954C-2C54-43D4-80C9-3F0E56002CB6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{E1141FF7-A009-43F3-839B-A46073D79278}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1141FF7-A009-43F3-839B-A46073D79278}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1141FF7-A009-43F3-839B-A46073D79278}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6521954C-2C54-43D4-80C9-3F0E56002CB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6521954C-2C54-43D4-80C9-3F0E56002CB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6521954C-2C54-43D4-80C9-3F0E56002CB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6521954C-2C54-43D4-80C9-3F0E56002CB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
