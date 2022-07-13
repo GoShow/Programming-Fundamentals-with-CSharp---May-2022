@@ -6,7 +6,15 @@ namespace _03.Substring
     {
         static void Main(string[] args)
         {
-            Console.WriteLine();
+            string substringToRemove = Console.ReadLine();
+            string fullString = Console.ReadLine();
+
+            while (fullString.Contains(substringToRemove))
+            {
+                fullString = fullString.Replace(substringToRemove, string.Empty);
+            }
+
+            Console.WriteLine(fullString);
         }
     }
 }

@@ -6,7 +6,17 @@ namespace _04.TextFilter
     {
         static void Main(string[] args)
         {
-            Console.WriteLine();
+            string[] bannedWords = Console.ReadLine().Split(", ");
+            string text = Console.ReadLine();
+
+            foreach (var bannedWord in bannedWords)
+            {
+                string replacedWithAsterisks = new string('*', bannedWord.Length);
+
+                text = text.Replace(bannedWord, replacedWithAsterisks);
+            }
+
+            Console.WriteLine(text);
         }
     }
 }
